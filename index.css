@@ -1,0 +1,45 @@
+.container {
+  line-height: 2rem;
+  border: 3px solid rgb(0, 74, 234);
+  padding: 10px;
+  margin: 3%;
+  width: 500px;
+}
+
+body {
+  position: relative;
+}
+
+body > label {
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-body {
+  display: flex;
+}
+
+input[type="text"] {
+  padding: 2%;
+}
+
+textarea {
+  padding: 2%;
+}
+
+.toast-list {
+  width: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.toast {
+  display: flex;
+  justify-content: space-between;
+  
+}
